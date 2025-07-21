@@ -6,3 +6,4 @@ A set of short and simple scripts demonstrating the use of the `multiprocessing`
 - 'kill_process.py': Killing a process by name using `process.terminate()`.
 - 'processing_user_requests_with_max_tasks_per_child.py': In this code, each process in the pool undergoes initialization before starting work and then processes a certain number of tasks coming from users.
 - 'task_management.py': This code manages the checking process for participants and stops the checking if one of them encounters problems, using an event object.
+- 'get_file_sizes_write_json.py': The code finds all files with the extension jpg in the folder and converts them into a dictionary. It then saves the processing results in JSON format (json.dumps(data)) and saves them in the file sizes.txt.
